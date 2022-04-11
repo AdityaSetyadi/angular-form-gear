@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
 import { FormGear } from 'form-gear';
@@ -18,7 +18,8 @@ import remark  from '../data/remark.json'
   templateUrl: './app.component.html',
   styleUrls: [
     './app.component.css'
-  ]
+  ],
+  encapsulation: ViewEncapsulation.None
 })
 export class AppComponent implements OnInit{
   
