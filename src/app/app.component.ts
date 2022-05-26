@@ -33,8 +33,10 @@ export class AppComponent implements OnInit{
         baseUrl: `https://api-survey.bps.go.id/designer/api/lookup-data/json`,
         lookupKey: `key%5B%5D`,
         lookupValue: `value%5B%5D`,
-        username: 'AdityaSetyadi',
-        formMode: 1 // 1 => OPEN ; 2 => REJECTED ; 3 => SUBMITTED ; 4 => APPROVED ;  
+        lookupMode : 1, // 1 => ONLINE ; 2 => OFFLINE
+        username: 'AdityaSetyadi', //
+        formMode: 1, // 1 => OPEN ; 2 => REJECTED ; 3 => SUBMITTED ; 4 => APPROVED ;
+        initialMode: 2 // 1=> INITIAL ; 2 => ASSIGN
       }
       
 
